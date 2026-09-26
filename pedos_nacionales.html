@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedos Nacionales</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 22px;
+      text-align: center;
+      border-bottom: 5px solid #e5b400;
+    }
+    header h1 { margin: 0; font-size: 38px; }
+    header p { margin: 8px 0 0; color: #ccc; }
+    nav {
+      background: white;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 2px 8px #0001;
+    }
+    nav a {
+      margin: 0 12px;
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 35px 22px;
+      text-align: center;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px #0002;
+    }
+    .hero h2 { font-size: 30px; margin-top: 0; }
+    .warning {
+      background: #fff4c2;
+      border-left: 6px solid #e5b400;
+      padding: 16px;
+      margin: 20px 0;
+      text-align: left;
+    }
+    .card {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px #0001;
+    }
+    button {
+      background: #111;
+      color: white;
+      border: 0;
+      padding: 13px 22px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover { transform: scale(1.03); }
+    footer {
+      margin-top: 40px;
+      padding: 25px;
+      text-align: center;
+      background: #111;
+      color: #aaa;
+    }
+    .fake {
+      color: #b00020;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💨 PEDOS NACIONALES</h1>
+  <p>El periódico más cuestionable de Internet</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#noticia">Noticias</a>
+  <a href="#acerca">Acerca de</a>
+</nav>
+
+<section class="hero" id="inicio">
+  <h2>🚨 NOTICIA DE ÚLTIMA HORA 🚨</h2>
+  <p>
+    Científicos de dudosa procedencia aseguran haber descubierto
+    un supuesto fenómeno relacionado con el olor de los pedos.
+  </p>
+
+  <div class="warning">
+    <strong>⚠️ IMPORTANTE:</strong>
+    Esta página es completamente satírica y la información presentada
+    es una broma. No debe tomarse como información científica real.
+  </div>
+
+  <button onclick="mostrarBroma()">🔬 Ver el supuesto estudio</button>
+  <p id="resultado"></p>
+</section>
+
+<section class="card" id="noticia">
+  <h2>📰 El supuesto descubrimiento</h2>
+  <p>
+    Según nuestro imaginario Instituto Nacional de Investigaciones
+    del Pedo, algunas partículas microscópicas presentes en el aire
+    podrían viajar junto con ciertos olores.
+  </p>
+  <p class="fake">
+    Esto es una parodia y no constituye una explicación científica real.
+  </p>
+</section>
+
+<section class="card" id="acerca">
+  <h2>📋 Sobre esta página</h2>
+  <p>
+    “Pedos Nacionales” es un sitio web de humor creado como parodia
+    de una página de noticias científicas.
+  </p>
+</section>
+
+<footer>
+  © 2026 Pedos Nacionales · Sitio de broma
+</footer>
+
+<script>
+function mostrarBroma() {
+  document.getElementById("resultado").textContent =
+    "🧪 Resultado: los científicos se fueron a comer y nunca terminaron el estudio 😂";
+}
+</script>
+
+</body>
+</html>
